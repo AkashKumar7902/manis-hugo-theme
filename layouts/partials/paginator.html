@@ -2,13 +2,13 @@
 <nav class="pagination">
     {{ with .Paginator.Prev }}
     <a href="{{ .URL }}">
-    <img class="icon-text" src="/sok-blog/img/prev.svg"/>
+    <img class="icon-text" src="/sok/img/prev.svg"/>
     </a>
     {{ end }}
     <span>{{.Paginator.PageNumber}}</span>
     {{ with .Paginator.Next }}
     <a href="{{ .URL }}">
-    <img class="icon-text" src="/sok-blog/img/next.svg"/>
+    <img class="icon-text" src="/sok/img/next.svg"/>
     </a>
     {{ end }}
 </nav>
